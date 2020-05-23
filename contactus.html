@@ -20,7 +20,7 @@
             <a class="navbar-brand" href="./index.html"><img src="img/logo.png" height="30" width="41"></a>
             <div class="collapse navbar-collapse" id="Navbar">
              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active"><a class="nav-link" href="./index.html">Home</a></li>
+                <li class="nav-item "><a class="nav-link" href="./index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="/aboutus.html">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="./Gallery.html">Gallery</a></li>
                 <li class="nav-item"><a class="nav-link" href="./Members.html">Members</a></li>
@@ -37,7 +37,7 @@
                       <a class="dropdown-item" href="#">Awards</a>
                     </div>
                   </li>                
-                   <li class="nav-item"><a class="nav-link" href="./contactus.html">Contact </a></li>   
+                   <li class="nav-item active"><a class="nav-link" href="./contactus.html">Contact </a></li>   
                    <li class="nav-item"><a class="nav-link" href="#">Join Us</a></li>
                    <li class="nav-item"><a class="nav-link" href="#">Donate</a></li>
 
@@ -69,6 +69,7 @@
             </div>
              <div class="col-12 col-sm-4 offset-sm-1">
                     <h5>Our Address</h5>
+                    <address style="font-size: 100%">
                     Plot No 41, MHADA Colony,<br>
 		              Panchwati, Katol,<br>
 		              Maharashtra 441302<br>
@@ -85,8 +86,66 @@
                  </div>
              </div>
            </div>
-    </div>
+    <!-- </div> -->
     <br>
+
+    
+    <div class="row row-content">
+        <div class="col-12">
+           <h3>Send us your Feedback</h3>
+        </div>
+         <div class="col-12 col-md-9">
+             <form>
+                 <div class="form-group row">
+                     <label for="firstname" class="col-md-2 col-form-label">First Name :</label>
+                     <div class="col-md-10">
+                         <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Enter Your FirstName">
+                     </div> 
+                 </div>
+                 <div class="form-group row">
+                     <label for="lastname" class="col-md-2 col-form-label">Last Name :</label>
+                     <div class="col-md-10">
+                         <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Enter Your LastName">
+                     </div> 
+                 </div>
+                 <div class="form-group row">
+                     <label for="telnum" class="col-12 col-md-2 col-form-label">Contact:</label>
+                     <div class="col-5 col-md-3">    
+                         <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Country code">
+                     </div>
+                     <div class="col-7 col-md-7">    
+                         <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Telephone Number">
+                     </div> 
+                 </div>
+                 <div class="form-group row">
+                     <label for="email" class="col-md-2 col-form-label">Email :</label>
+                     <div class="col-md-10">
+                         <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Enter Your Email">
+                     </div> 
+                 </div>
+
+                 <div class="form-group row">
+                     <label for="Feedback" class="col-md-2 col-form-label">Your Feedback:</label>
+                     <div class="col-md-10">
+                         <textarea class="form-control" id="feedback" name="feedback" rows="12">
+                             </textarea>
+                     </div> 
+                 </div>
+                 <div class="form-group row">
+                     <div class="offset-md-2 col-md-10">
+                         <button type="submit" class="btn btn-primary">
+                             Send Feedback
+                         </button>
+                     </div>
+                 </div>
+
+ 
+             </form>
+         </div>
+          <div class="col-12 col-md">
+         </div>
+    </div>
+    </div>
 
 
     <footer class="footer">
