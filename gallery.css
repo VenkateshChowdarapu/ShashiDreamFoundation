@@ -3,6 +3,10 @@
 #gallery img {
 	/* height: ; */
 	object-fit: cover;
+	border: 5px solid transparent;
+	padding: 5px;
+	border-image:30 round;
+	border-color: rgb(131, 118, 118);
 }
 
 @media (min-width: 576px) {
