@@ -1,8 +1,11 @@
 @charset "UTF-8";
 
 #gallery img {
-	/* height: ; */
+  /* height: ; */
 	object-fit: cover;
+}
+img :hover{
+  background-color: yellow;
 }
 
 @media (min-width: 576px) {
