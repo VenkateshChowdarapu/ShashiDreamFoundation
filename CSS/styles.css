@@ -5,7 +5,7 @@
 .jumbotron{
     padding:70px 30px 70px 30px;
     margin: 0px auto;
-    background-color:rgb(69, 73, 30);
+    background-color:rgb(186, 197, 90);
     color:black;
 }
 .navbar-dark{
@@ -21,7 +21,7 @@
 }
 .carousel-item{
     height: 400px;
-}
+
 .carousel-item img{
     position: absolute;
     top:0;
