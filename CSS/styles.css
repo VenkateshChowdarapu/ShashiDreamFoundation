@@ -12,14 +12,21 @@
     color: white;
     height: 250px;
 }
+
+.jumbotron img{
+    margin-top: 5px;
+    height: 130px;
+    width: 130px ;
+}
 .navbar-dark{
-    background-color:rgb(59, 59, 0);
+    background-color:rgb(92, 94, 12);
     
 }
 .navbar{
     color: black;
     font-style: bold;
 }
+
 .carousel{
     background:rgb(158, 129, 34, 0.863);
     border-radius: 40px;
@@ -40,7 +47,7 @@
     margin-bottom: 4px;
     /* min-width: 1110px; */
      border-radius: 40px;
-    min-height: 300px;
+    /* min-height: 300px; */
     max-height:400px;
 }
 .font{
