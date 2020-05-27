@@ -3,6 +3,13 @@
 #gallery img {
   /* height: ; */
 	object-fit: cover;
+	border: 5px solid transparent;
+	padding: 5px;
+	border-image:30 round;
+	border-color: rgb(131, 118, 118);
+	cursor: pointer;
+	max-height: 150px;
+	/* max-width: 400px; */
 }
 img :hover{
   background-color: yellow;
@@ -24,6 +31,7 @@ img :hover{
 
 .carousel-item img {
 	height: 60vw;
+	max-width: 470px;
 	object-fit: cover;
 }
 
