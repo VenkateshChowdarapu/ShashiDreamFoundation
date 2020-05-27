@@ -51,3 +51,27 @@
     margin:0px auto;
     padding: 20px 0px 20px 0px;
 }
+
+.tab-content{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd ;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+#members{
+    margin: 34px;
+    display: flex;
+}
+
+#members .box{
+    border:2px solid gray;
+    border-radius: 20px;
+    text-align: center;
+    padding: 3px;
+    margin: 3px;
+}
+#members .box img{
+    height: 150px;
+    padding:4px;
+    border-radius: 20px;
+}
