@@ -6,23 +6,31 @@
 .jumbotron{
     padding:70px 30px 70px 30px;
     margin: 0px auto;
-    background-color:rgb(186, 197, 90);
+    height: 270px;
+    background-color:rgb(193, 206, 80);
     color:black;
 }
+
+.jumbotron img{
+    margin-top: 5px;
+    height: 130px;
+    width: 130px ;
+}
 .navbar-dark{
-    background-color:rgb(59, 59, 0);
+    background-color:rgb(92, 94, 12);
     
 }
 .navbar{
     color: black;
     font-style: bold;
 }
+
 .carousel{
-    background:rgba(158, 129, 34, 0.863);
+    background:rgba(228, 147, 80, 0.863);
     border-radius: 40px;
 }
 .carousel-item{
-    height: 406px;
+    height: 404px;
 }
 
 .carousel-item img{
@@ -36,7 +44,7 @@
     margin-bottom: 4px;
     /* min-width: 1110px; */
      border-radius: 40px;
-    min-height: 300px;
+    /* min-height: 300px; */
     max-height:400px;
 }
 .font{
