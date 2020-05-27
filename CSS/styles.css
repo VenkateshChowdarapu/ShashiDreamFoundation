@@ -64,11 +64,12 @@
 }
 
 #members .box{
+    margin: 10px;
     border:2px solid gray;
     border-radius: 20px;
     text-align: center;
     padding: 3px;
-    margin: 3px;
+    /* margin: 3px; */
 }
 #members .box img{
     height: 150px;
