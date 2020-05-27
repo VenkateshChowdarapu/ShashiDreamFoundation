@@ -55,16 +55,17 @@
     padding: 10px;
 }
 #members{
-    margin: 34px;
+    margin: 0px;
     display: flex;
+    margin: 34px;
 }
 
 #members .box{
     border:2px solid gray;
     border-radius: 20px;
     text-align: center;
-    padding: 3px;
-    margin: 3px;
+    padding: 1px;
+    margin: 10px;
 }
 #members .box img{
     height: 150px;
