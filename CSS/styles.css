@@ -21,7 +21,8 @@
     font-style: bold;
 }
 .carousel{
-    background:rgb(107, 117, 17);
+    background:rgb(158, 129, 34, 0.863);
+    border-radius: 40px;
 }
 .carousel-item{
     height: 400px;
@@ -32,8 +33,13 @@
     position: absolute;
     top:0;
     left:0;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-bottom: 4px;
     /* min-width: 1110px; */
-
+     border-radius: 40px;
     min-height: 300px;
     max-height:400px;
 }

@@ -5,6 +5,7 @@
 	object-fit: cover;
 	border: 5px solid transparent;
 	padding: 5px;
+	margin: 5px;
 	border-image:30 round;
 	border-color: rgb(131, 118, 118);
 	cursor: pointer;
