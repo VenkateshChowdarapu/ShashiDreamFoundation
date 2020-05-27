@@ -59,8 +59,9 @@
     padding: 10px;
 }
 #members{
-    margin: 34px;
+    margin: 0px;
     display: flex;
+    margin: 34px;
 }
 
 #members .box{
