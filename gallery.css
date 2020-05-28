@@ -3,8 +3,8 @@
 #gallery img {
   /* height: ; */
 	object-fit: cover;
-	border: 5px solid transparent;
-	padding: 5px;
+	border: 3px solid transparent;
+	padding: 3px;
 	margin: 5px;
 	border-image:30 round;
 	border-color: rgb(131, 118, 118);
@@ -12,8 +12,8 @@
 	max-height: 150px;
 	/* max-width: 400px; */
 }
-img :hover{
-  background-color: yellow;
+#gallery img:hover{
+border:solid red
 }
 
 @media (min-width: 576px) {
@@ -38,7 +38,7 @@ img :hover{
 
 @media (min-width: 576px) {
      
-	.carousel-item img {
+	#c img {
 		height: 350px;
 	}
 }
