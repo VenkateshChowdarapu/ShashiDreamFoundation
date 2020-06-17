@@ -15,15 +15,33 @@
 	border: 5px double rgb(148, 174, 180);
 }
 
+#newspaper img {
+	/* height: ; */
+	object-fit: cover;
+	/* border: 3px solid transparent; */
+	/* padding: 3px; */
+	margin: 5px;
+	/* border-color: rgb(131, 118, 118); */
+	cursor: pointer;
+	border-radius: 5px;
+}
+#newspaper img:hover{
+	border: 5px double rgb(148, 174, 180);
+}
+
+#events{
+	padding: 30px;
+}
+
 @media (min-width: 576px) {
-     
+    
 	#gallery img {
 		height: 35vw;
 	}
 }
 
 @media (min-width: 992px) {
-     
+    
 	#gallery img {
 		height: 18vw;
 	}
@@ -36,7 +54,7 @@
 }
 
 @media (min-width: 576px) {
-     
+    
 	#c img {
 		height: 350px;
 	}
