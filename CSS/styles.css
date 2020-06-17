@@ -27,7 +27,7 @@
 }
 
 .carousel{
-    background:rgba(228, 147, 80, 0.863);
+    background:rgba(241, 240, 238, 0.863);
     border-radius: 40px;
 }
 .carousel-item{
@@ -52,9 +52,13 @@
 #aboutus img{
     height: 300px;
     width: 300px;
-    margin-left: 5px;
-    margin-top: 10px;
+    margin-left: 20px;
+    margin-top: 75px;
 
+}
+#when img{
+    height: 600px;
+    width: 600px;
 }
 
 .font{

@@ -3,16 +3,16 @@
 #gallery img {
 	/* height: ; */
 	object-fit: cover;
-	border: 3px solid transparent;
-	padding: 3px;
+	/* border: 3px solid transparent; */
+	/* padding: 3px; */
 	margin: 5px;
 	border-image:30 round;
-	border-color: rgb(131, 118, 118);
+	/* border-color: rgb(131, 118, 118); */
 	cursor: pointer;
 	border-radius: 20px;
 }
 #gallery img:hover{
-	border: 5px double rgb(11, 12, 102);
+	border: 5px double rgb(148, 174, 180);
 }
 
 @media (min-width: 576px) {
