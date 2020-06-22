@@ -17,6 +17,13 @@
     height: 130px;
     width: 130px ;
 }
+
+
+nav{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .navbar-dark{
     background-color:rgb(92, 94, 12);
     
@@ -25,6 +32,7 @@
     color: black;
     font-style: bold;
 }
+
 
 .carousel{
     background:rgba(241, 240, 238, 0.863);
@@ -43,9 +51,7 @@
     margin-top: 2px;
     margin-left: 2px;
     margin-bottom: 4px;
-    /* min-width: 1110px; */
      border-radius: 40px;
-    /* min-height: 300px; */
     max-height:400px;
 }
 
@@ -59,6 +65,23 @@
 #when img{
     height: 600px;
     width: 600px;
+}
+#evp{
+	padding: 30px;
+}
+#evp p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+#evp img:hover{
+    cursor: pointer;
+    border: 5px solid rgb(62, 110, 121);
+    border-radius: 20px;
+}
+#evp img{
+    border-radius: 10px;
+    border:5px solid seashell;
 }
 
 .font{
@@ -100,4 +123,9 @@
    min-width: 250px;
     padding:4px;
     border-radius: 20px;
+}
+
+dd,dt{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

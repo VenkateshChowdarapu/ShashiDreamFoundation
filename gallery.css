@@ -1,13 +1,9 @@
 @charset "UTF-8";
 
 #gallery img {
-	/* height: ; */
 	object-fit: cover;
-	/* border: 3px solid transparent; */
-	/* padding: 3px; */
 	margin: 5px;
 	border-image:30 round;
-	/* border-color: rgb(131, 118, 118); */
 	cursor: pointer;
 	border-radius: 20px;
 }
@@ -16,12 +12,9 @@
 }
 
 #newspaper img {
-	/* height: ; */
+
 	object-fit: cover;
-	/* border: 3px solid transparent; */
-	/* padding: 3px; */
 	margin: 5px;
-	/* border-color: rgb(131, 118, 118); */
 	cursor: pointer;
 	border-radius: 5px;
 }
@@ -29,9 +22,7 @@
 	border: 5px double rgb(148, 174, 180);
 }
 
-#events{
-	padding: 30px;
-}
+
 
 @media (min-width: 576px) {
     
@@ -48,7 +39,6 @@
 }
 
 #c img {
-	/* height: 60vw; */
 	height: 113vw;
 	object-fit: cover;
 }
@@ -56,6 +46,76 @@
 @media (min-width: 576px) {
     
 	#c img {
-		height: 350px;
+		height: 450px;
+	}	
+}
+
+.jumbotron{
+	position: relative; 
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+}
+
+.jumbotron::before{
+	content: "";
+      background-image: url('./img/2.jpg');
+	  background-size: cover;
+	  object-fit: fill;
+      position: absolute;
+      top: -40px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.85;
+}
+
+@media (max-width:520px){
+	.jumbotron{
+		object-fit: fill;
+	}
+	.jumbotron p{
+		position: relative;
+		color: black;  
+		font-size: 3rem;
+		line-height: 0.9;
+		text-align: center;
+	}
+	.jumbotron .b button{
+		position: relative;
+		align-self: center;
+		color: rgb(30, 84, 131);
+		background-color:yellow;
+		border-radius: 20px;
+		border-color: yellow;
+		font-size: 4rem;
+		margin-left: 50px;
+		line-height: 0.9;
+		text-align: center;
 	}
 }
+
+@media (min-width:990px){
+	.jumbotron p{
+		position: relative;
+		color: black;  
+		font-size: 4rem;
+		line-height: 0.9;
+		text-align: center;
+		}
+.jumbotron .b button{
+	position: relative;
+	align-self: center;
+	margin-left:400px ;
+	font-size: 4rem;
+	border-color: yellow;
+	border-radius:20px ;
+	color: rgb(30, 84, 131);
+	background-color:yellow;
+	line-height: 0.9;
+	text-align: center;
+}
+}
+
