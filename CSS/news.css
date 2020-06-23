@@ -14,6 +14,7 @@
 } 
 
 
+
 @media (min-width: 996px) {
    
     .carousel{
@@ -22,6 +23,9 @@
     .carousel-item{
         min-height: 530px;
         object-fit: contain;
+    }
+    .carousel-item img{
+        max-height: 610px;
     }
     .modal-content{
         height: 700px;
