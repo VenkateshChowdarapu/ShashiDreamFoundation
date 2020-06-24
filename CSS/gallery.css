@@ -65,7 +65,8 @@
 	  background-size: cover;
 	  object-fit: fill;
       position: absolute;
-      top: -40px;
+	  top: -10px;
+	  bottom: -20px;
       right: 0px;
       bottom: 0px;
       left: 0px;
