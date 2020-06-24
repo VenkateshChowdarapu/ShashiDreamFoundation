@@ -1,4 +1,6 @@
-
+#exampleModal{
+    margin-top: -25px;
+}
 #newspaper img {
 	object-fit: cover;
 	margin: 5px;
