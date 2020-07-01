@@ -52,11 +52,14 @@
     max-height:400px;
 }
 
-.aboutus img{
-    height: 350px;
-    width: 100%;
-    opacity: 0.6;
+#aboutus img{
+    height: 300px;
+    width: 300px;
+    margin-left: 5px;
+    margin-top: 10px;
+
 }
+
 .font{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
