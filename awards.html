@@ -3,18 +3,15 @@
 <head>           
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Shashi Dream Foundation</title>
+    <title>Shashi Dream Foundation: About Us</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' href='./CSS/styles.css'>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
      <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-     <link rel="stylesheet" href="./CSS/gallery.css">
 </head>
 <body>
-
-    
     <nav class="navbar navbar-dark navbar-expand-sm  fixed-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
@@ -25,7 +22,7 @@
              <ul class="navbar-nav mr-auto">
                 <li class="nav-item "><a class="nav-link" href="./index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="/aboutus.html">About</a></li>
-                <li class="nav-item active"><a class="nav-link" href="./Gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="./Gallery.html">Gallery</a></li>
                 <li class="nav-item"><a class="nav-link" href="./Members.html">Members</a></li>
 
 
@@ -38,117 +35,88 @@
                       <a class="dropdown-item" href="newspaper.html">NewsPaper Articles</a>
                       <a class="dropdown-item" href="newsletters.html">NewsLetters</a>
                       <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="awards.html">Awards</a>
+                      <a class="dropdown-item" href="#">Awards</a>
                     </div>
                   </li>                
-                   <li class="nav-item"><a class="nav-link" href="./contactus.html">Contact </a></li>   
-                   <li class="nav-item"><a class="nav-link" href="donate.html">Donate</a></li>
+                   <li class="nav-item "><a class="nav-link" href="./contactus.html">Contact </a></li>   
+                   <li class="nav-item active"><a class="nav-link" href="donate.html">Donate</a></li>
 
                 </span>
-              </ul>
+            </ul>
+
             </div>
-            
         </div>
     </nav>
 
-   
-    <header class="jumbotron" >
-      
+    <header class="jumbotron" style="background-color:rgb(138, 153, 7);">
         <div class="container">
-          
-                <!-- <div class="col-3 col-sm-2">
-                    <img src="img/logo.png" class="img-fluid rounded-circle" width="103px" height="78px" >
+            <div class="row row-header">
+                <div class="col-3 col-sm-2">
+                    <img src="img/logo.png" class="img-fluid " width="103px" height="78px" >
                 </div>
                    <div class="col-9 col-sm-6">
                         <h1>Shashi Dream Foundation</h1>
                         <p>Empowering Generation Next...</p>
-               </div> -->
-               <div>
-                <center><button class="btn" id="b">GALLERY</button></center>
                </div>
+            </div>
         </div> 
     </header>
     
-
-
     <div class="container">
-    <div class="row" id="gallery" data-toggle="modal" data-target="#exampleModal">
-      <div class="col-6 col-sm-6 col-lg-3">
-        <img class="w-100" src="./images/1.jpg" data-target="#carouselExample" data-slide-to="0">
-      </div>
-      <div class="col-6 col-sm-6 col-lg-3">
-        <img class="w-100" src="./images/1.jpg" data-target="#carouselExample" data-slide-to="0">
-      </div>
-      <div class="col-6 col-sm-6 col-lg-3">
-        <img class="w-100" src="./images/2.jpg" data-target="#carouselExample" data-slide-to="1">
-      </div>
-      <div class="col-6 col-sm-6 col-lg-3">
-        <img class="w-100" src="./images/3(1).jpg" data-target="#carouselExample" data-slide-to="2">
-      </div>
-      <div class="col-6 col-sm-6 col-lg-3">
-        <img class="w-100" src="./images/2.jpg" data-target="#carouselExample" data-slide-to="1">
-      </div>
-      <div class="col-6 col-sm-6 col-lg-3">
-        <img class="w-100" src="./images/3(1).jpg" data-target="#carouselExample" data-slide-to="2">
-      </div>
-      <div class="col-6 col-sm-6 col-lg-3">
-        <img class="w-100" src="./images/3(1).jpg" data-target="#carouselExample" data-slide-to="2">
-      </div>
-      <div class="col-6 col-sm-6 col-lg-3">
-        <img class="w-100" src="./images/2.jpg" data-target="#carouselExample" data-slide-to="1">
-      </div>
-      <div class="col-12 col-sm-6 col-lg-3">
-        <img class="w-100" src="./img/3(1).jpg" data-target="#carouselExample" data-slide-to="2">
-      </div>
-      
-    </div>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">×</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            
-          <!-- Carousel markup: https://getbootstrap.com/docs/4.4/components/carousel/ -->
-          <div id="carouselExample" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-
-                  <img class="d-block w-100" src="/img/1.jpg">
-                </div>
-                <div class="carousel-item" id="c">
-                  <img class="d-block w-100" src="./img/2.jpg">
-                </div>
-                <div class="carousel-item" id="c">
-                  <img class="d-block w-100" src="./img/3(1).jpg">
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
-    
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
+        <div class="row row-content align-items-center">
+            <div class="col col-sm order-sm-first col-md">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                            src="img/1.jpg" height="100px" width="200px" alt="#">
+                    <div class="media-body">
+                        <span class="badge badge-danger"><h2 class="mt-0">Tittle 1</h2></span>
+                        <p class="">A unique combination of Indian Uthappam (pancake) and
+                            Italian pizza, topped with Cerignola olives, ripe vine
+                            cherry tomatoes, Vidalia onion, Guntur chillies and
+                            Buffalo Paneer.</p>
+                    </div>
+                </div>  
+             </div>
         </div>
-      </div>
+
+
+        <div class="row row-content align-items-center">
+            <div class="col col-sm col-md">
+                <div class="media">
+                    <div class="media-body">
+                        <span class="badge badge-danger"><h2 class="mt-0">Tittle 2</h2></span>
+                        <p class="">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                   </div>
+                   <img class="d-flex ml-3 img-thumbnail align-self-center"
+                   src="img/3.jpg" height="100px" width="200px" alt="#">
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center">
+            <div class="col col-sm order-sm-first col-md">
+            <div class="media">
+                <img class="d-flex mr-3 img-thumbnail align-self-center"
+                        src="img/2.jpg" height="2   00px" width="200px" alt="#">
+                <div class="media-body">
+                    <span class="badge badge-danger"><h2 class="mt-0">Tittle 3</h2></span>
+                    <p class="">Award winning three-star Michelin chef with wide
+                        International experience having worked closely with
+                        whos-who in the culinary world, he specializes in
+                        creating mouthwatering Indo-Italian fusion experiences.
+                    </p>
+                </div>
+            </div>
+            </div>
+            
+        </div>
+
     </div>
-  </div>
 
-    <br>
+<br><br>
 
-     <footer class="footer">
+    <footer class="footer">
         <div class="container">
             <div class="row">             
                 <!-- <div  class="col-4 offset-1 col-sm-2 ">
@@ -192,10 +160,12 @@
            </div>
         </div>
     </footer>
+
     
+
     
 </body>
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </html>

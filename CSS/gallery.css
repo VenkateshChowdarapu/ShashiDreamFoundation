@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+#gallery img {
+	object-fit: cover;
+	margin: 5px;
+	border-image:30 round;
+	cursor: pointer;
+	border-radius: 20px;
+}
+#gallery img:hover{
+	border: 5px double rgb(148, 174, 180);
+}
+
+#newspaper img {
+
+	object-fit: cover;
+	margin: 5px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+#newspaper img:hover{
+	border: 5px double rgb(148, 174, 180);
+}
+
+
+
+@media (min-width: 576px) {
+    
+	#gallery img {
+		height: 35vw;
+	}
+}
+
+@media (min-width: 992px) {
+    
+	#gallery img {
+		height: 18vw;
+	}
+}
+
+#c img {
+	height: 113vw;
+	object-fit: cover;
+}
+
+@media (min-width: 576px) {
+    
+	#c img {
+		height: 450px;
+	}	
+}
+
+.jumbotron{
+	position: relative; 
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+}
+
+.jumbotron::before{
+	content: "";
+      background-image: url('../img/2.jpg');
+	  background-size: cover;
+	  object-fit: fill;
+      position: absolute;
+	  top: -10px;
+	  bottom: -20px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.85;
+}
+#b{
+	position: relative;
+	color:black;
+	background-color:yellow;
+	border-radius: 20px;
+	border-color: yellow;
+	font-size: 2rem;
+	line-height: 0.9;
+}
+
+@media (min-width:720px){
+#b{
+	font-size: 3rem;
+}
+}

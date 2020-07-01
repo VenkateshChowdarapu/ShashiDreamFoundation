@@ -1,0 +1,42 @@
+#exampleModal{
+    margin-top: -25px;
+}
+#newspaper img {
+	object-fit: cover;
+	margin: 5px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+#newspaper img:hover{
+	border: 5px double rgb(148, 174, 180);
+}
+
+ #np img{
+   height: 530px;
+} 
+
+
+
+@media (min-width: 996px) {
+   
+    .carousel{
+        min-height: 530px;
+     }
+    .carousel-item{
+        min-height: 530px;
+        object-fit: contain;
+    }
+    .carousel-item img{
+        max-height: 610px;
+    }
+    .modal-content{
+        height: 700px;
+        width: 750px;
+     
+    }
+}
+
+
+
+
+

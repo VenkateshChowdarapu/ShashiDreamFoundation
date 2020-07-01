@@ -19,6 +19,13 @@
     height: 130px;
     width: 130px ;
 }
+
+
+nav{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .navbar-dark{
     background-color:rgb(92, 94, 12);
     
@@ -28,8 +35,14 @@
     font-style: bold;
 }
 
+
+
 .carousel{
+<<<<<<< HEAD
     background:rgb(158, 129, 34, 0.863);
+=======
+    background:rgba(241, 240, 238, 0.863);
+>>>>>>> 00274d53d1f57f57357c7a8dff72cfe06a52cc92
     border-radius: 40px;
 }
 .carousel-item{
@@ -46,18 +59,37 @@
     margin-top: 2px;
     margin-left: 2px;
     margin-bottom: 4px;
-    /* min-width: 1110px; */
-     border-radius: 40px;
-    /* min-height: 300px; */
+    border-radius: 40px;
     max-height:400px;
 }
 
 #aboutus img{
     height: 300px;
     width: 300px;
-    margin-left: 5px;
-    margin-top: 10px;
+    margin-left: 20px;
+    margin-top: 75px;
 
+}
+#when img{
+    height: 600px;
+    width: 600px;
+}
+#evp{
+	padding: 30px;
+}
+#evp p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+#evp img:hover{
+    cursor: pointer;
+    border: 5px solid rgb(62, 110, 121);
+    border-radius: 20px;
+}
+#evp img{
+    border-radius: 10px;
+    border:5px solid seashell;
 }
 
 .font{
@@ -81,6 +113,8 @@
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
+
+
 #members{
     margin: 0px;
     display: flex;
@@ -88,6 +122,12 @@
 }
 
 #members .box{
+<<<<<<< HEAD
+=======
+    border-radius: 20px; 
+    text-align: center;
+    padding: 1px;
+>>>>>>> 00274d53d1f57f57357c7a8dff72cfe06a52cc92
     margin: 10px;
     /* border:2px solid gray;
     border-radius: 20px; */
@@ -95,9 +135,46 @@
     padding: 3px;
     /* margin: 3px; */
 }
+
+@media (min-width:750px){
+    #gallery{
+        margin-left: 5px;
+    }
+    #members .box{
+        min-height: 280px;
+        min-width: 280px;
+    }
+    #members .box img{
+        min-height: 250px;
+        min-width: 250px;
+         padding:4px;
+         border-radius: 20px;
+     }
+}
+@media (min-width:1020px){
+    #gallery{
+        margin-left: 40px;
+    }
+    #members .box{
+        min-height: 250px;
+        min-width: 250px;
+    }
+    #members .box img{
+        min-height: 250px;
+        min-width: 250px;
+         padding:4px;
+         border-radius: 20px;
+     }
+}
+
 #members .box img{
-    height: 250px;
-   min-width: 250px;
+   max-height: 350px;
+   max-width: 350px;
     padding:4px;
     border-radius: 20px;
+}
+
+dd,dt{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

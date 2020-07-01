@@ -10,22 +10,21 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
      <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-     <link rel="stylesheet" href="./CSS/gallery.css">
+     <link rel="stylesheet" href="./CSS/news.css">
 </head>
-<body>
 
-    
+<body>
     <nav class="navbar navbar-dark navbar-expand-sm  fixed-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="./index.html"><img src="img/logo.png" height="30" width="41"></a>
+            <a class="navbar-brand" href="./index.html"><img src="images/logo.png" height="30" width="41"></a>
             <div class="collapse navbar-collapse" id="Navbar">
              <ul class="navbar-nav mr-auto">
-                <li class="nav-item "><a class="nav-link" href="./index.html">Home</a></li>
+                <li class="nav-item active"><a class="nav-link" href="./index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="/aboutus.html">About</a></li>
-                <li class="nav-item active"><a class="nav-link" href="./Gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="./Gallery.html">Gallery</a></li>
                 <li class="nav-item"><a class="nav-link" href="./Members.html">Members</a></li>
 
 
@@ -35,7 +34,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="events.html">Events</a>
-                      <a class="dropdown-item" href="newspaper.html">NewsPaper Articles</a>
+                      <a class="dropdown-item" href="#">NewsPaper Articles</a>
                       <a class="dropdown-item" href="newsletters.html">NewsLetters</a>
                       <div class="dropdown-divider"></div>
                       <a class="dropdown-item" href="awards.html">Awards</a>
@@ -45,66 +44,56 @@
                    <li class="nav-item"><a class="nav-link" href="donate.html">Donate</a></li>
 
                 </span>
-              </ul>
+            </ul>
+
             </div>
-            
         </div>
     </nav>
-
-   
     <header class="jumbotron" >
-      
         <div class="container">
-          
-                <!-- <div class="col-3 col-sm-2">
+            <div class="row row-header">
+                <div class="col-3 col-sm-2">
                     <img src="img/logo.png" class="img-fluid rounded-circle" width="103px" height="78px" >
                 </div>
                    <div class="col-9 col-sm-6">
                         <h1>Shashi Dream Foundation</h1>
                         <p>Empowering Generation Next...</p>
-               </div> -->
-               <div>
-                <center><button class="btn" id="b">GALLERY</button></center>
                </div>
+            </div>
         </div> 
     </header>
-    
+<div class="container-fluid">
+    <div class="row" id="newspaper" data-toggle="modal" data-target="#exampleModal">
+        <div class="col-6 col-sm-6 col-lg-4">
+          <img class="w-100" src="./images/1.jpg" data-target="#carouselExample" data-slide-to="0">
+        </div>
+        <div class="col-6 col-sm-6 col-lg-4">
+          <img class="w-100" src="./images/1.jpg" data-target="#carouselExample" data-slide-to="0">
+        </div>
+        <div class="col-6 col-sm-6 col-lg-4">
+          <img class="w-100" src="./images/2.jpg" data-target="#carouselExample" data-slide-to="1">
+        </div>
+        <div class="col-6 col-sm-6 col-lg-4">
+          <img class="w-100" src="./images/3(1).jpg" data-target="#carouselExample" data-slide-to="2">
+        </div>
+        <div class="col-6 col-sm-6 col-lg-4">
+          <img class="w-100" src="./images/2.jpg"  data-target="#carouselExample" data-slide-to="1">
+        </div>
+        <div class="col-6 col-sm-6 col-lg-4">
+          <img class="w-100" src="./images/3(1).jpg" data-target="#carouselExample" data-slide-to="2">
+        </div>
+        <div class="col-6 col-sm-6 col-lg-4">
+          <img class="w-100" src="./images/3(1).jpg" data-target="#carouselExample" data-slide-to="2">
+        </div>
+        <div class="col-6 col-sm-6 col-lg-4">
+          <img class="w-100" src="./images/2.jpg" data-target="#carouselExample" data-slide-to="1">
+        </div>
+      </div>
 
-
-    <div class="container">
-    <div class="row" id="gallery" data-toggle="modal" data-target="#exampleModal">
-      <div class="col-6 col-sm-6 col-lg-3">
-        <img class="w-100" src="./images/1.jpg" data-target="#carouselExample" data-slide-to="0">
-      </div>
-      <div class="col-6 col-sm-6 col-lg-3">
-        <img class="w-100" src="./images/1.jpg" data-target="#carouselExample" data-slide-to="0">
-      </div>
-      <div class="col-6 col-sm-6 col-lg-3">
-        <img class="w-100" src="./images/2.jpg" data-target="#carouselExample" data-slide-to="1">
-      </div>
-      <div class="col-6 col-sm-6 col-lg-3">
-        <img class="w-100" src="./images/3(1).jpg" data-target="#carouselExample" data-slide-to="2">
-      </div>
-      <div class="col-6 col-sm-6 col-lg-3">
-        <img class="w-100" src="./images/2.jpg" data-target="#carouselExample" data-slide-to="1">
-      </div>
-      <div class="col-6 col-sm-6 col-lg-3">
-        <img class="w-100" src="./images/3(1).jpg" data-target="#carouselExample" data-slide-to="2">
-      </div>
-      <div class="col-6 col-sm-6 col-lg-3">
-        <img class="w-100" src="./images/3(1).jpg" data-target="#carouselExample" data-slide-to="2">
-      </div>
-      <div class="col-6 col-sm-6 col-lg-3">
-        <img class="w-100" src="./images/2.jpg" data-target="#carouselExample" data-slide-to="1">
-      </div>
-      <div class="col-12 col-sm-6 col-lg-3">
-        <img class="w-100" src="./img/3(1).jpg" data-target="#carouselExample" data-slide-to="2">
-      </div>
-      
-    </div>
-
+       
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
+        
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -116,14 +105,13 @@
           <!-- Carousel markup: https://getbootstrap.com/docs/4.4/components/carousel/ -->
           <div id="carouselExample" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
-                <div class="carousel-item active">
-
+                <div class="carousel-item active" id="np">
                   <img class="d-block w-100" src="/img/1.jpg">
                 </div>
-                <div class="carousel-item" id="c">
+                <div class="carousel-item" id="np">
                   <img class="d-block w-100" src="./img/2.jpg">
                 </div>
-                <div class="carousel-item" id="c">
+                <div class="carousel-item" id="np">
                   <img class="d-block w-100" src="./img/3(1).jpg">
                 </div>
               </div>
@@ -142,13 +130,14 @@
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
+      
       </div>
     </div>
-  </div>
+ 
 
-    <br>
+    </div>   
 
-     <footer class="footer">
+    <footer class="footer">
         <div class="container">
             <div class="row">             
                 <!-- <div  class="col-4 offset-1 col-sm-2 ">
@@ -172,9 +161,7 @@
 		              <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:shashidreamfoundation@gmail.com">shashidreamfoundation@gmail.com</a>
 		           </address>
                 </div>
-               
                 <div class="col-12 col-sm-4 align-self-end">
-                   
                     <div class="text-center ">
                         <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
                         <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/ShashiDream"><i class="fa fa-facebook fa-lg"></i></a>
@@ -192,10 +179,11 @@
            </div>
         </div>
     </footer>
-    
-    
+
+
 </body>
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </html>
