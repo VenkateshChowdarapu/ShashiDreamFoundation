@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+#gallery img {
+  /* height: ; */
+	object-fit: cover;
+	border: 3px solid transparent;
+	padding: 3px;
+	margin: 5px;
+	border-image:30 round;
+	border-color: rgb(131, 118, 118);
+	cursor: pointer;
+	max-height: 150px;
+	/* max-width: 400px; */
+}
+#gallery img:hover{
+border:solid red
+}
+
+@media (min-width: 576px) {
+     
+	#gallery img {
+		height: 35vw;
+	}
+}
+
+@media (min-width: 992px) {
+     
+	#gallery img {
+		height: 18vw;
+	}
+}
+
+.carousel-item img {
+	height: 60vw;
+	max-width: 470px;
+	object-fit: cover;
+}
+
+@media (min-width: 576px) {
+     
+	#c img {
+		height: 350px;
+	}
+}
