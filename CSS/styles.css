@@ -39,11 +39,7 @@ nav{
 
 
 .carousel{
-<<<<<<< HEAD
-    background:rgb(158, 129, 34, 0.863);
-=======
     background:rgba(241, 240, 238, 0.863);
->>>>>>> 00274d53d1f57f57357c7a8dff72cfe06a52cc92
     border-radius: 40px;
 }
 .carousel-item{
@@ -123,12 +119,9 @@ nav{
 }
 
 #members .box{
-<<<<<<< HEAD
-=======
     border-radius: 20px; 
     text-align: center;
     padding: 1px;
->>>>>>> 00274d53d1f57f57357c7a8dff72cfe06a52cc92
     margin: 10px;
     /* border:2px solid gray;
     border-radius: 20px; */
