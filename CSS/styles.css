@@ -155,8 +155,9 @@ nav{
     }
     #members .box img{
         min-height: 250px;
-        min-width: 250px;
-         padding:4px;
+        min-width: 240px;
+         padding:4px; 
+         padding-right: 5px;
          border-radius: 20px;
      }
 }
