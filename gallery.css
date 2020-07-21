@@ -17,14 +17,14 @@ border:solid red
 }
 
 @media (min-width: 576px) {
-     
+    
 	#gallery img {
 		height: 35vw;
 	}
 }
 
 @media (min-width: 992px) {
-     
+    
 	#gallery img {
 		height: 18vw;
 	}
@@ -37,7 +37,7 @@ border:solid red
 }
 
 @media (min-width: 576px) {
-     
+    
 	#c img {
 		height: 350px;
 	}
